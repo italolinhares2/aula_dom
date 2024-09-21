@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <form>
+        <div class="input-container">
+            <label for="nome">Nome*</label>
+            <input type="text" name="nome" id="nome">
+            <span class="hide span">Campo Obrigatório</span>
+        </div>
+
+        <div class="input-container">
+            <label for="telefone">Telefone*</label>
+            <input type="text" name="telefone" id="telefone">
+            <span class="hide span">Campo Obrigatório</span>
+        </div>
+
+        <div class="input-container">
+            <label for="email">E-mail*</label>
+            <input type="text" name="email" id="email" class="email">
+            <span class="hide span">Campo Obrigatório</span>
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="Enviar" id="btnEnviar">
+            <input type="button" value="Adicionar Campo" id="btnAddField">
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
